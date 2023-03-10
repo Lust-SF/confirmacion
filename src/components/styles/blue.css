@@ -1,0 +1,42 @@
+.total_blue{
+    width: 100%;
+    height: 69vh;
+    background-color: #09c;
+    position: relative;
+}
+
+.logo_pacifico{
+    width: 100px;
+    margin: 5% 0px 0px 5%;
+}
+
+.icono_like{
+    width: 150px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.texto{
+    color: white;
+    text-align: center;
+    font-size: 135%;
+}
+
+@media (min-width: 1440px) {
+    .logo_pacifico{
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .icono_like {
+       margin-left: 15%;
+       width: 200px;
+    }
+    .texto {
+        text-align: left;
+        margin-left: 10%;
+        font-size: 25px;
+     }
+  }
