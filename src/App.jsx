@@ -1,22 +1,8 @@
 import React from 'react';
-import { White } from './components/white';
-import { Blue } from './components/blue';
-import { Footer } from './components/footer';
+import { Vista } from './components/vista';
 
 export  function App() {
-  return (
-       
-    <div>
-        <div>        
-            <Blue/>
-        </div>
-        <div>        
-            <White/>
-        </div>
-        <div>        
-            <Footer/>
-        </div>
-    </div>
-    
+  return (   
+    <Vista nombre="Albert" fecha="19 ENE 2023 - 05:57 pm" nrosolicitud="2000323355" correo="antonio_maq@gmail.com" />  
   )
 }

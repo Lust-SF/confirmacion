@@ -24,6 +24,13 @@
     font-size: 135%;
 }
 
+
+@media (min-width: 700px) {
+    .texto {
+        font-size: 25px;
+    }
+  }
+
 @media (min-width: 1440px) {
     .logo_pacifico{
         width: 200px;
@@ -38,5 +45,15 @@
         text-align: left;
         margin-left: 10%;
         font-size: 25px;
+     }
+  }
+
+  @media (min-width: 2000px) {
+    .icono_like {
+        width: 220px;
+     }
+
+    .texto {
+        font-size: 30px;
      }
   }

@@ -31,6 +31,12 @@
     margin: 5% 10%;
 }
 
+@media (min-width: 800px) {
+    .title_blue {
+        margin-top: 30%;
+    }
+}
+
 @media (min-width: 1440px) {
     .title_blue {
         margin-top: 50px;
@@ -41,5 +47,15 @@
     .final{
         margin: 1% 10%;
     }
+    .stores{
+        margin: 0px 25%;
+    }
 
 }
+
+@media (min-width: 2000px) {
+    .stores{
+        margin: 0px 35%;
+    }
+}
+
